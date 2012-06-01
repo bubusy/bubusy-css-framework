@@ -1,0 +1,70 @@
+/* 
+ * reset
+ */ 
+html, body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, pre, 
+form, fieldset, legend, button, input, textarea, select, th, td {margin: 0; padding: 0;}
+body, button, input, select, textarea {font: 12px/1.5 Helvetica, Arial, Sans-Serif; color: #333;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;}
+ul, ol {list-style: none;}
+a {text-decoration: none;}
+textarea{resize:none;}
+img {border: 0;}
+
+
+
+
+/*
+ * form 
+ */
+.error{color:#900;}
+.success{color:#060;}
+.note{font-weight:bold;}
+.normal{color: #06C;}
+.notvalid{border:1px solid #900 !important;}
+input[type="text"], input[type="password"], textarea, select{border:1px solid #cfcfcf; padding: 7px; background:#fff; vertical-align: middle; line-height: 14px;}
+textarea{overflow:auto;}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus{background: #f1f1f1; border-color: #afafaf; outline:none;}
+fieldset{border:1px solid #cfcfcf; padding:5px 10px;}
+legend{padding:2px 5px;}
+.label{padding: 7px 0px;}
+.checkbox, .radio{padding-top:0px; line-height: 32px;}
+.checkbox input[type="checkbox"], .radio input[type="radio"]{ margin-top: 0px; margin-right: 3px; vertical-align: text-top;}
+.form-v .label{float:left; width: 20%; text-align: right; padding-right: 20px; clear: left;}
+.form-v .ins{float: left; margin-bottom: 5px;}
+
+
+/*
+ * basic
+ */
+a{color: #06C;}
+a:hover{text-decoration: underline;}
+h1{font-size: 32px;}
+h2{font-size: 28px;}
+h3{font-size: 24px;}
+h4{font-size: 18px;}
+h5{font-size: 14px;}
+h6{font-size: 12px;}
+.clear {clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+
+/*
+ * button TODO size color
+ */
+.btn{border: solid 1px #aaa; background: #cfcfcf; display: inline-block; color: #333; padding: 0px 8px; line-height:30px; vertical-align: middle;  cursor: pointer;}
+.btn:hover{background: #bfbfbf; text-decoration: none;}
+
+
+/*
+ * table
+ */
+.table{width: 100%; border-collapse: collapse;}
+.table th, .table caption{text-align: left;}
+.table caption{margin: 5px 0px; font-style: italic; font-size: 14px;}
+.table th{background: #eee;}
+.table th, .table td{padding: 5px 10px;}
+
+
+
+/*
+ * layout
+ */
+.s960{width: 960px; margin-left: auto; margin-right: auto;}
