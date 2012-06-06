@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="../core.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link href="prettify.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="prettify.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h3 class="s960">bubusy css framework</h3>
+			
+		</div>
+		<div class="s960">
+			<div>
+				<ul class="nav">
+					<li><a href="#">按钮</a></li>
+					<li><a href="#">表单</a></li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<div id="button" class="s960 section">
+			<h4>按钮</h4>
+			<hr />
+			<br/>
+			<h5>示例：</h5>
+			<a href="#" class="btn">default</a>
+			<a href="#" class="btn btn-normal">btn-normal</a>
+			<a href="#" class="btn btn-success">btn-success</a>
+			<a href="#" class="btn btn-inverse">btn-inverse</a>
+			<a href="#" class="btn btn-danger">btn-danger</a>
+			<a href="#" class="btn-small">default</a>
+			<a href="#" class="btn-small btn-normal">btn-normal</a>
+			<a href="#" class="btn-small btn-success">btn-success</a>
+			<a href="#" class="btn-small btn-inverse">btn-inverse</a>
+			<a href="#" class="btn-small btn-danger">btn-danger</a>
+			<br/>
+			<br/>
+			<p>按钮相关的class可以被用于：<code>&lt;a&gt;</code><code>&lt;button&gt;</code><code>&lt;input&gt;</code>标签</p>
+			<br/>
+			<table class="table table-bordered">
+				<thead>
+					<th width="20%">示例</th>
+					<th>class</th>
+					<th>说明</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="#" class="btn">default</a></td>
+						<td><code>.btn</code></td>
+						<td>默认样式</td>
+					</tr>
+					<tr>
+						<td><a href="#" class="btn btn-normal">btn-normal</a></td>
+						<td><code>.btn .btn-normal</code></td>
+						<td>普通按钮样式</td>
+					</tr>
+					<tr>
+						<td><a href="#" class="btn btn-success">btn-success</a></td>
+						<td><code>.btn .btn-success</code></td>
+						<td>绿色系按钮，一般用来表示成功、完成。</td>
+					</tr>
+					<tr>
+						<td><a href="#" class="btn btn-danger">btn-danger</a></td>
+						<td><code>.btn .btn-danger</code></td>
+						<td>红色系按钮，一般用来表示危险按钮。</td>
+					</tr>
+					<tr>
+						<td><a href="#" class="btn btn-inverse">btn-inverse</a></td>
+						<td><code>.btn .btn-inverse</code></td>
+						<td>黑底白字按钮</td>
+					</tr>
+				</tbody>
+			</table>
+			<br/>
+			<p>预设了两种按钮大小：正常尺寸、小尺寸。分别对应的class为：<code>.btn</code><code>.btn-small</code>。</p>
+			示例：
+			<a href="#" class="btn btn-normal">.btn</a>
+			<a href="#" class="btn-small btn-normal">.btn-small</a>
+			<br/>
+			<br/>
+			<h5>自定义：</h5>
+			
+		</div>
+		<div id="form" class="s960 section">
+			<h4>表单</h4>
+			<hr/>
+			<br/>
+			<p>默认修改（标签级修改）了部分表单控件，不在<code>form</code>标签内也有效。下面列出了被修改的控件</p>
+			<br/>
+			<p>
+				<code>input[type="text"]</code>
+				<code>input[type="password"]</code>
+				<code>select</code>
+				<code>textarea</code>
+				<code>label</code>
+				<code>fieldset</code>
+				<code>legend</code>
+			</p>
+			<br/>
+			<h5>示例：</h5>
+			<input type="text" />
+			<input type="button" class="btn btn-normal" value="提交" />
+			<label>我是label</label>
+			<a class="btn btn-danger">我是a，也使用了按钮样式</a>
+			
+		</div>
+	</body>
+</html>

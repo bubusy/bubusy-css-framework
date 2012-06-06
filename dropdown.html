@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="core.css" />
+	</head>
+	<body>
+		<br/>
+		<div class="s960">
+			<ul class="nav nav-pill nav-tab">
+				<li><a href="#">nav1</a></li>
+				<li><a href="#">nav2<b class="caret"></b></a></li>
+				<li class="dropdown">
+					<a>nav2<b class="caret"></b></a>
+					<ul class="down-target">
+						<li><a href="#">aaaaa</a></li>
+						<li><a href="#">aaaaa</a></li>
+						<li class="line"></li>
+						<li><a href="#">aaaaaaaaaaaaaaa</a></li>
+					</ul>
+				</li>
+				<li><a href="#">nav2</a></li>
+				<li class="selected"><a href="#">nav2<b class="caret"></b></a></li>
+				<li class="last-child"><a href="#">nav2</a></li>
+			</ul>
+			
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bubusy.dropdown.js"></script>
+		<script type="text/javascript">
+			$('.dropdown').dropdown();
+			
+		</script>
+	</body>
+</html>
