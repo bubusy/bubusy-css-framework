@@ -10,9 +10,6 @@ a {text-decoration: none;}
 textarea{resize:none;}
 img {border: 0;}
 
-
-
-
 /*
  * form 
  */
@@ -27,12 +24,11 @@ textarea{overflow:auto;}
 input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus{background: #f1f1f1; border-color: #afafaf; outline:none;}
 fieldset{border:1px solid #cfcfcf; padding:5px 10px;}
 legend{padding:2px 5px;}
-label, .label{padding: 8px 0px; vertical-align: middle;}
+label, .label{padding: 8px 0px; vertical-align: middle; line-height: 14px;}
 .checkbox, .radio{padding-top:0px; line-height: 32px;}
 .checkbox input[type="checkbox"], .radio input[type="radio"]{ margin-top: 0px; margin-right: 3px; vertical-align: text-top;}
 .form-v .label{float:left; width: 20%; text-align: right; padding-right: 20px; clear: left;}
 .form-v .ins{float: left; margin-bottom: 5px;}
-
 
 /*
  * basic
@@ -55,13 +51,15 @@ code{padding: 2px 4px; margin:0px 2px; background: #f5f5f5; border: solid 1px #e
  */
 .btn, 
 input[type="submit"].btn,
-input[type="button"].btn{border: solid 1px #aaa; background: #cfcfcf; display: inline-block; color: #333; padding: 0px 8px; line-height:28px; vertical-align: middle;  cursor: pointer;}
+input[type="button"].btn{border: solid 1px #aaa; background: #cfcfcf; display: inline-block; color: #333; padding: 0px 8px; line-height:31px; height: 31px;  vertical-align: middle;  cursor: pointer;}
+.btn{height: 29px; line-height: 29px;}/*input和a对高度的处理不一样，还不知道为什么，感觉像是border的原因*/
 .btn:hover, 
 input[type="submit"].btn:hover, 
 input[type="button"].btn:hover{background: #bfbfbf; text-decoration: none; color: #222;}
 .btn-small,
 input[type="submit"].btn-small, 
-input[type="button"].btn-small{border: solid 1px #aaa; background: #cfcfcf; display: inline-block; color: #333; padding: 0px 8px; line-height:20px; vertical-align: middle;  cursor: pointer;}
+input[type="button"].btn-small{border: solid 1px #aaa; background: #cfcfcf; display: inline-block; color: #333; padding: 0px 8px; line-height:22px; height:22px; vertical-align: middle;  cursor: pointer;}
+.btn-small{height: 20px; line-height: 20px;}/*input和a对高度的处理不一样，还不知道为什么，感觉像是border的原因*/
 .btn-small:hover, input[type="submit"].btn-small:hover, input[type="btn"].btn-small:hover{background: #bfbfbf; text-decoration: none; color: #222;}
 .btn-normal, input[type="submit"].btn-normal, input[type="button"].btn-normal{background: #049CFF; color: #eee; border: solid 1px #049CFF;}
 .btn-normal:hover, input[type="submit"].btn-normal:hover, input[type="button"].btn-normal:hover{background: #048CFF; color: #fff;}
@@ -71,7 +69,6 @@ input[type="button"].btn-small{border: solid 1px #aaa; background: #cfcfcf; disp
 .btn-inverse:hover, input[type="submit"].btn-inverse:hover, input[type="button"].btn-inverse:hover{background: #000; color: #fff;}
 .btn-danger, input[type="submit"].btn-danger, input[type="button"].btn-danger{background: #db3058; color: #eee; border: solid 1px #db3058;}
 .btn-danger:hover, input[type="submit"].btn-danger:hover, input[type="button"].btn-danger:hover{background: #f5053d; color: #fff;}
-
 
 /*
  * table
@@ -84,7 +81,6 @@ input[type="button"].btn-small{border: solid 1px #aaa; background: #cfcfcf; disp
 /*bordered table*/
 .table-bordered td{border: solid 1px #cfcfcf;}
 .table-bordered th{border: solid 1px #cfcfcf;}
-
 
 /*
  * pagination
