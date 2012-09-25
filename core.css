@@ -3,7 +3,7 @@
  */ 
 html, body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, pre, 
 form, fieldset, legend, button, input, textarea, select, th, td {margin: 0; padding: 0;}
-body, button, input, select, textarea {font: 12px/1.5 Helvetica, Arial, Sans-Serif; color: #333;}
+body, button, input, select, textarea {font: 12px/1.5 Helvetica, Arial, "微软雅黑", Sans-Serif; color: #333;}
 h1, h2, h3, h4, h5, h6 {font-size: 100%;}
 ul, ol {list-style: none;}
 a {text-decoration: none;}
@@ -96,11 +96,11 @@ input[type="button"].btn-small{border: solid 1px #aaa; background: #cfcfcf; disp
  */
 .nav:after{clear: both; display: table; content: "";}
 .nav > li{float: left;}
-.nav > li > a{background: #f7f7f7; color: #049CFF; padding: 0px 20px; line-height: 36px; display:block; border-right: solid 1px #e5e5e5;}
-.nav > li > a:hover{background: #efefef; text-decoration: none;}
+.nav > li > a{background: #DDDDDD; color: #049CFF; padding: 0px 20px; line-height: 36px; display:block; border-right: solid 1px #f7f7f7;}
+.nav > li > a:hover{background: #CCCCCC; text-decoration: none;}
 .nav > li:last-child > a{border-right: 0;}
 .nav .last-child > a{border-right: 0;}/*for ie bug*/
-.nav .selected > a{background: #efefef;}
+.nav .selected > a{background: #CCCCCC;}
 .nav .caret{margin-top: 16px; margin-left: 5px; border-top-color: #049CFF;}
 .nav-pill > li{margin-right: 10px;}
 .nav-pill > li a{border:0;}
